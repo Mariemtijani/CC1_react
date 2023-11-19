@@ -21,18 +21,18 @@ useEffect (() => {
    {setDataArray(response.data) })
 },[page])
 
-const prev = () => {
+const next = () => {
  setPage(page + 1)
 }
 
-const next = () => {
+const prev = () => {
  if(page > 1){
    setPage(page - 1)
  }
 }
 
     useEffect(() => {
-      axios.get('http://api.thecatapi.com/v1/images/search').
+      axios.get('https://api.thecatapi.com/v1/images/search').
       then((response) => {
           setImgData(response.data[0].url)
       }).catch((error) => {
