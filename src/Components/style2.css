@@ -1,0 +1,71 @@
+.container1 {
+    width: 400px;
+    height: 490px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 80px;
+    z-index: 2;
+}
+.statmentInput {
+    width: 350px;
+    height: 80px;
+    margin-left: 15px;
+    padding: 20px;
+}
+.row input{
+    width: 60px;
+    height: 40px;
+    
+}
+.container-fluid1 {
+    width: 400px;
+    margin-left: 20px;
+}
+
+
+.equale_btn {
+    width:60px;
+    height:120px;
+    position: relative;
+    right :-30px;
+}
+.button:hover{
+color: grey;
+}
+.del {
+    font-size: 18px;
+}
+
+@media screen and (max-width : 500px) {
+    .container1 {
+        width: 290px;
+        height: 440px;
+        position: relative;
+        top: 20px;
+    }
+    .statmentInput {
+        width: 250px;
+        height: 80px;
+    }
+    .row input {
+        width: 30px;
+        height: 30px;
+        
+    }
+    .del {
+        font-size: 22px;
+        
+    }
+    .container-fluid1 {
+        width: 290px;
+    }
+    .equale_btn {
+        width:40px;
+        height:110px;
+        position: relative;
+        right :-30px;
+    }
+    
+}
+  

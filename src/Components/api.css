@@ -1,0 +1,25 @@
+.img_api {
+    width: 400px;
+    height: 400px;
+    
+}
+.api {
+    display: flex;
+    justify-content: space-around;
+}
+.taskApi {
+  margin-top: 50px;
+  
+    
+}
+@media screen and (max-width : 500px) {
+    .img_api {
+        width: 250px;
+        height: 200px;
+        position: relative;
+        left: 18%; }
+    .api {
+        display: block;
+
+    }
+}

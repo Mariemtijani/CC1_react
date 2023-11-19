@@ -1,0 +1,15 @@
+.container-home {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+@media screen and (max-width : 500px) {
+    .container-home {
+        position: relative;
+        margin-top: 120px;
+        width: 250px;
+        
+    }
+}
