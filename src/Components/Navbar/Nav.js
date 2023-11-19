@@ -34,7 +34,7 @@ function NavElement() {
             <Nav.Link  as={Link} to='/slider' style={{ color:'#088F8F', fontWeight:'bold'}}>Slider</Nav.Link>
             <Nav.Link  as={Link} to='/todolist' style={{ color:'#088F8F', fontWeight:'bold'}}>TodoList</Nav.Link>
             <Nav.Link  as={Link} to='/api' style={{ color:'#088F8F', fontWeight:'bold'}}>Api</Nav.Link>
-            <Nav.Link  as={Link} to='/contact' style={{ color:'#088F8F', fontWeight:'bold'}}>Contact</Nav.Link>
+            
           </Nav>
          <BtnTheme/>
           
